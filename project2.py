@@ -37,6 +37,6 @@ class ngan_hang :
 a = ngan_hang("quang " , 500000)
 a.tong_ket()
 a.nap_tien(5000)
-a.withdraw(20000)
+a.withdraw(2000)
 a.tong_ket()
     
