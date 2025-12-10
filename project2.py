@@ -10,7 +10,7 @@ class ngan_hang :
             self.so_du+=tien_nap
             print(f"so tien co trong tai khoan : {self.so_du}")
     
-    def generate_otp(self,otp):
+    def otp(self,otp):
         return otp
     
     def withdraw(self, tien_rut):
@@ -20,7 +20,7 @@ class ngan_hang :
             
         
         # tạo OTP
-        otp = self.generate_otp(12345)
+        otp = self.otp(12345)
         user_otp = int(input(" Nhập OTP để xác nhận: "))
 
         if user_otp == otp:
